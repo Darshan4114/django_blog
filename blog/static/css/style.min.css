@@ -1,0 +1,12 @@
+.card-comments img {
+  width: 4rem;
+}
+.blog-text p {
+  width: 25%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blog-body {
+  height: 8rem;
+}
