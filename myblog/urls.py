@@ -25,7 +25,6 @@ urlpatterns = [
     path('', blog_view),
     path('blog/<int:my_id>',blog_detail_view),
     path('create/',blog_create_view),
-    path('success/',success),
 
     ]
 

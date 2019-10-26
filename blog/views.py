@@ -24,11 +24,8 @@ def blog_create_view(request,*args, **kwargs):
 
         if form.is_valid():
             form.save()
-            return redirect ("/success/")
+            return redirect ("/")
     
     else:
         form = BlogForm()
     return render(request,"blog_create.html",{'form':form})
-
-def success(request,*args, **kwargs): 
-    return HttpResponse('successfuly uploaded')
